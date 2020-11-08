@@ -1,0 +1,84 @@
+// ------------------- antd 重置变量 -------------------------
+// -------- Colors -----------
+@blue-6: #2375CA; // rgba(35,117,202,1);
+@red-6: #E55151;
+@orange-6: #FB8231;
+@yellow-6: #ECC500;
+@gold-6: #FB8231;
+@green-6: #00CD87;
+@black: #000620;
+@white: #fff;
+@primary-color: @blue-6;
+
+
+// -------- Font --------------
+@font-family: NotoSansSC-Light, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
+@font-size-sm: 12px;
+@code-family: Roboto, 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+@text-color: fade(@black, 65%);
+@text-color-dark: fade(@black, 87%);
+@text-color-secondary: fade(@black, 54%);
+@text-color-secondary-dark: fade(@white, 65%);
+
+// Button
+@btn-primary-bg: @primary-color;
+
+// Base background color for most component
+@heading-color: fade(@black, 87%);
+@border-radius-base: 2px;
+@border-radius-sm: 1px;
+@border-color-base: #d6d7db;
+
+// --------- Shadow ---------
+@shadow-color: rgba(9,28,88,0.12);
+@box-shadow-base: @shadow-1-down;
+@shadow-1-down: 0 1px 4px @shadow-color;
+@shadow-2-down: 0 2px 8px @shadow-color;
+@shadow-3-down: 0 4px 12px @shadow-color;
+
+// ------- Table ------------
+@table-header-color: @heading-color;
+@background-color-light: rgba(247,249,252,1); // background of header and selected item
+@table-row-hover-bg: @hover-bg-color;
+@table-padding-vertical: 8px;
+@table-padding-horizontal: 16px;
+@table-padding-vertical-md: 8px;
+@table-padding-horizontal-md: 8px;
+
+// Form
+// ---
+@label-color: fade(@heading-color, 87%);
+@form-explain-font-size: @font-size-sm;
+// @form-item-margin-bottom: 12px;
+
+// Breadcrumb
+// ---
+@breadcrumb-base-color: fade(@white, 54%);
+@breadcrumb-last-item-color: fade(@white, 87%);
+@breadcrumb-link-color: fade(@white, 87%);
+@breadcrumb-link-color-hover: @white;
+@breadcrumb-separator-color: fade(@white, 54%);
+
+// Modal
+// --
+@modal-header-bg: @gray;
+
+// ------------------- 自定义变量 ----------------------
+@theme-color: @blue-6;
+@siderbar-color: rgba(232,237,252,1);
+@waiting-color: #9EA0AA;
+// 亮灰色背景
+@bg-light: @background-color-light;
+@bg-color: rgba(47,84,201,0.04);
+@hover-bg-color: rgba(235,240,255, 1);
+@text-color-third: fade(@black, 38%);
+@box-border-color: #E8ECEF;
+
+@gray: #FAFBFF;
+@info-color: @blue-6;
+@layout-bg: rgba(247,248,253,1);
+@subtit-color: fade(@white, 87%);
+@sidebar-width: 58px;
+@header-height: 49px;
