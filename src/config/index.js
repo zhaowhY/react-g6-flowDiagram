@@ -1,6 +1,7 @@
 export { default as ENUMS } from './enums';
 
-const { baseURL } = window.GLOBAL_CONFIG;
+const baseURL = ''
+
 
 export const domains = {
   base: baseURL,
