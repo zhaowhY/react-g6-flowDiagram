@@ -1,0 +1,1 @@
+{"version":3,"sources":["BasicLayout.module.less"],"names":[],"mappings":"AAAA,8BACE,YACF","file":"4.1558d6d3.chunk.css","sourcesContent":[".layout-container {\n  padding: 20px;\n}\n@hack: true;@import \"/Users/zhaowenhao/Desktop/Github上的项目/react-g6-flowDiagram/src/styles/theme/variable.less\";"]}

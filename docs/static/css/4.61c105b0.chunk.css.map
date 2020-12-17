@@ -1,1 +1,0 @@
-{"version":3,"sources":["BasicLayout.module.less"],"names":[],"mappings":"AAAA,8BACE,YACF","file":"4.61c105b0.chunk.css","sourcesContent":[".layout-container {\n  padding: 20px;\n}\n@hack: true;@import \"/Users/zhaowenhao14/Desktop/react-eslint/src/styles/theme/variable.less\";"]}

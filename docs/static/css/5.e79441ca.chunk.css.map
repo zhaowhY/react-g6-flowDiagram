@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.module.less"],"names":[],"mappings":"AAAA,6BACE,YAAA,CACA,YAAA,CACA,oBACF","file":"5.e79441ca.chunk.css","sourcesContent":[".graph-container {\n  width: 1002px;\n  height: 502px;\n  border: 1px solid red;\n}\n@hack: true;@import \"/Users/zhaowenhao/Desktop/Github上的项目/react-g6-flowDiagram/src/styles/theme/variable.less\";"]}

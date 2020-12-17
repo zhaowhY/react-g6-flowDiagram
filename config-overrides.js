@@ -66,6 +66,7 @@ const addCustomize = () => (config) => {
 
 // 修改打包后的文件目录
 const recoverBuildPath = () => (config) => {
+  if (!config.output.path) return config;
   const paths = require("react-scripts/config/paths");
   paths.appBuild = path.join(path.dirname(paths.appBuild), "docs");
   config.output.path = path.join(path.dirname(config.output.path), "docs");

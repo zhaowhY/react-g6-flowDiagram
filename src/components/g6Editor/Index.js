@@ -167,14 +167,16 @@ class G6Editor extends Component {
   render() {
     return (
       <div>
-        <button type="button" onClick={() => this.addNode()}>添加节点</button>
-        <button
-          type="button"
-          onClick={() => this.consoleData()}
-          style={{ marginLeft: 16 }}
-        >
-          打印数据
+        <div style={{ display: 'flex', marginBottom: 16 }}>
+          <button type="button" onClick={() => this.addNode()}>添加节点</button>
+          <button
+            type="button"
+            onClick={() => this.consoleData()}
+            style={{ marginLeft: 24 }}
+          >
+            打印数据(输出在控制台F12)
         </button>
+        </div>
         <div
           className={styles['graph-container']}
           id={this.graphId}

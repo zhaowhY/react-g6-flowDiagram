@@ -13,8 +13,10 @@ class Test extends Component {
   }
   render() {
     return (
-      <div>
-        <G6Editor></G6Editor>
+      <div style={{ textAlign: 'center' }}>
+        <div style={{ display: 'inline-block', marginTop: 100 }}>
+          <G6Editor></G6Editor>
+        </div>
       </div>
     );
   }
