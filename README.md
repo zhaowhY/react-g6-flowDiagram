@@ -1,6 +1,6 @@
 ## 介绍
 - 基于react和g6的流程图组件
-- [在线访问链接](https://kongkong99.github.io/react-g6-flowDiagram/#/list)
+- [在线访问链接](https://zhaowhy.github.io/react-g6-flowDiagram/#/list)
 
 ## 组件目录
 - 流程图组件文件夹  src/components/g6Editor/
